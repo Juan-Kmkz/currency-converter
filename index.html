@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+        <title>Currency Converter</title>
+
+    </head>
+
+    <body>
+        
+        <img id="site-logo" src="./assets/logo.gif" alt="logo-currency-converter">
+
+        <main>
+
+            <label>
+                Converter <b>de</b>:
+                <select id="select-one">
+                    <option>R$ Real Brasileiro</option>
+                </select>
+            </label>
+
+            <label>
+                Converter <b>para</b>:
+                <select id="select-two">
+                    <option>US$ Dólar Americano</option>
+                    <option>€ Euro</option>
+                    <option>£ Libra</option>
+                    <option>₿ Bitcoin</option>
+                </select>
+            </label>
+
+            <label>
+                Valor a ser convertido:
+                <input type="number" id="value-to-convert">
+            </label>
+
+            <button id="operation-button">Converter</button>
+
+            <section>
+                <img src="./assets/real.png" alt="icon-real">
+                <p>Real</p>
+                <p>R$ 0,00</p>
+
+                <img src="./assets/vector.png">
+
+                <img src="./assets/dolar.png" alt="icon-dolar">
+                <p>Dólar Americano</p>
+                <p>US$ 0,00</p>
+            </section>
+        </main>
+
+    </body>
+
+</html>
