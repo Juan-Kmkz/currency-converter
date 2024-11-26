@@ -84,3 +84,14 @@ input::-webkit-inner-spin-button{
     gap: 4px;
 }
 
+.value-on-display{
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.currency-on-display{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
